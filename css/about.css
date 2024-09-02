@@ -12,6 +12,11 @@
     font-size: 33px;
    
 }
+.moreContent {
+    display: none;
+}
+
+/*--------------------------------------sevice-------------------*/
 .hero2 {
     background: url('/images/Rectangle\ 4342.png') no-repeat center center;
     background-size: cover;
@@ -23,7 +28,7 @@
     background-color: #D2F7FF;
   
 }
-
+/*-----------------------------------------package-------------*/
 .hero3 {
     background: url('/images/Rectangle\ 4329\ \(3\).png') no-repeat center center;
     background-size: cover;
@@ -31,6 +36,7 @@
     color: white;
     position: relative;
 }
+
 .contact-section {
     background-color: #ffffff;
     padding: 30px;
