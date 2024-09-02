@@ -1,0 +1,50 @@
+
+.hero1 {
+
+    background: url('/images/Rectangle\ 4329\ \(1\).png') no-repeat center center;
+    background-size: cover;
+    height: calc(100vh - 120px); 
+    color: white;
+    position: relative;
+}
+.title1 {
+    font-weight: bold;
+    font-size: 33px;
+   
+}
+.hero2 {
+    background: url('/images/Rectangle\ 4342.png') no-repeat center center;
+    background-size: cover;
+    height: calc(100vh - 120px); 
+    color: white;
+    position: relative;
+}
+.service-section{
+    background-color: #D2F7FF;
+  
+}
+
+.hero3 {
+    background: url('/images/Rectangle\ 4329\ \(3\).png') no-repeat center center;
+    background-size: cover;
+    height: calc(100vh - 120px); 
+    color: white;
+    position: relative;
+}
+.contact-section {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.form-control {
+    margin-bottom: 15px;
+}
+.btn-primary {
+    width: 100%;
+    background-color: #00a2e8;
+    border-color: #00a2e8;
+}
+.address-section {
+    padding: 30px;
+}

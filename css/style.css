@@ -1,0 +1,271 @@
+/* General Styles */
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #D2F7FF;
+}
+
+/* Header Section */
+.header-container {
+    background-color: #e3f2fd;
+}
+
+.header img {
+    max-width: 150px;
+}
+
+.header p {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 0;
+}
+
+.header .social-icons img {
+    width: 25px;
+    margin-left: 10px;
+}
+
+.header span {
+    display: block;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+    .header p {
+        font-size: 0.875rem;
+    }
+
+    .header img {
+        max-width: 120px;
+    }
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #007bff;
+}
+
+.navbar-nav .nav-link {
+    color: #fff !important;
+    font-size: 1rem;
+    padding: 15px 20px;
+}
+
+.navbar-nav .nav-item.active .nav-link {
+    font-weight: bold;
+    border-bottom: 2px solid #fff;
+}
+
+.navbar-toggler {
+    outline: none;
+}
+
+@media (max-width: 768px) {
+    .navbar-nav .nav-link {
+        font-size: 0.875rem;
+        padding: 10px 15px;
+    }
+}
+
+/* Hero Section */
+.hero {
+    background: url('/images/Rectangle\ 4329.png') no-repeat center center;
+    background-size: cover;
+    height: calc(100vh - 120px); 
+    color: white;
+    position: relative;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.hero .btn-primary {
+    padding: 10px 30px;
+    font-size: 1.25rem;
+    background-color: #007bff;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.hero .btn-primary:hover {
+    background-color: #0056b3;
+}
+.title {
+    font-weight: bold;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+/* About Section Styles */
+
+.about-section img {
+    max-width: 100%;
+    height: auto;
+}
+
+.more-content {
+    display: none;
+}
+
+.more-content.show {
+    display: block;
+}
+
+.why-choose-us {
+    background-image: url('/images/unsplash_okVXy9tG3KY.png');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+}
+
+.card-icon {
+    width: 70px;
+    height: 70px;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: black;
+}
+
+.card-text {
+    color: #555;
+ 
+}
+
+.btn-link {
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.services{
+    background-color: #D2F7FF;
+
+}
+
+.review .card-icon{
+    top: -50px;
+    position: absolute;
+    left: calc(50% - 50px);
+    width: 80px;
+    height: 80px;
+
+}
+.card-text1 {
+    color: #555;
+    text-align: justify;
+}
+
+.footer {
+    background-color: #94dfef;
+    color: #333;
+}
+
+.footer-logo {
+    max-width: 150px;
+}
+
+.footer-heading {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.footer p {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.footer ul {
+    padding: 0;
+    list-style: none;
+}
+
+.footer ul li a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    padding: 0.2rem 0;
+}
+
+.footer ul li a:hover {
+    color: #007bff;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icon {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    color: #007bff;
+    font-size: 1.2rem;
+}
+
+.social-icon:hover {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1.25rem;
+    }
+
+    .hero .btn-primary {
+        font-size: 1rem;
+    }
+    .title1{
+        font-size: 20px;
+        margin-left: 0px;
+    }
+   
+}
+@media (max-width: 576px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1.25rem;
+    }
+
+    .hero .btn-primary {
+        font-size: 1rem;
+    }
+    .title1{
+        font-size: 20px;
+        margin-left: 0px;
+    }
+  
+  
+}
